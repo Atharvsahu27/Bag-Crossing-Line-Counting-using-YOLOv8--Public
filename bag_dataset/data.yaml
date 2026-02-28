@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+
+
+nc: 1
+names: ['bag']
+
+roboflow:
+  workspace: atharvs-workspace-rtvhs
+  project: bag_data
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/atharvs-workspace-rtvhs/bag_data/dataset/1
